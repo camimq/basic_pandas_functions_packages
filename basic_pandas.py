@@ -33,7 +33,7 @@
 # ### Verificando versão
 
 # %%
-!python -V
+# !python -V
 
 # %% [markdown]
 # # 1.3 Trabalhando com dados
@@ -43,7 +43,7 @@ import pandas as pd
 ##pd.set_option('display.max_rows', 1000) ## para ver o dataframe inteiro
 
 # %%
-dataset = pd.read_csv(r'C:\Users\Elitebook\OneDrive\Desktop\web dev\repositorios\fiap\alura\warm up\1_pandas\data\db.csv', sep = ';')
+dataset = pd.read_csv('https://raw.githubusercontent.com/camimq/basic_pandas_functions_packages/main/data/db.csv', sep = ';')
 
 # %%
 dataset
@@ -453,7 +453,7 @@ dadosCopy
 dadosCopy.pop('Passat', 'Chave não encontrada')
 
 # %%
-dadosCopy.pop('DS5')
+# dadosCopy.pop('DS5')
 
 # %%
 dadosCopy
@@ -1008,7 +1008,7 @@ dataset
 # ### Criando um DataFrame a partir de uma arquivo externo
 
 # %%
-dataset = pd.read_csv('/db.csv', sep = ';', index_col = 0)
+dataset = pd.read_csv('https://raw.githubusercontent.com/camimq/basic_pandas_functions_packages/main/data/db.csv', sep = ';', index_col = 0)
 
 # %%
 dataset
@@ -1217,7 +1217,7 @@ dataset.loc[['Passat', 'DS5'], ['Motor', 'Valor']]
 # # 5.3 Queries com DataFrames
 
 # %%
-dataset = pd.read_csv('/db.csv', sep = ';', index_col = 0)
+dataset = pd.read_csv('https://raw.githubusercontent.com/camimq/basic_pandas_functions_packages/main/data/db.csv', sep = ';', index_col = 0)
 
 # %%
 dataset.head()
@@ -1272,7 +1272,7 @@ dataset = pd.DataFrame(dados, index = ['Jetta', 'Passat', 'Crossfox', 'DS5', 'Fu
 # # 5.4 Iterando com DataFrames
 
 # %%
-dataset = pd.read_csv('/db.csv', sep = ';', index_col = 0)
+dataset = pd.read_csv('https://raw.githubusercontent.com/camimq/basic_pandas_functions_packages/main/data/db.csv', sep = ';', index_col = 0)
 
 # %%
 dataset.head()
@@ -1315,7 +1315,7 @@ dataset
 dataset.query("Zero_km == True")
 
 # %%
-dataset = pd.read_csv('/db.csv', sep = ';')
+dataset = pd.read_csv('https://raw.githubusercontent.com/camimq/basic_pandas_functions_packages/main/data/db.csv', sep = ';')
 
 # %%
 dataset
