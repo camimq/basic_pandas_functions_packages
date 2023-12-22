@@ -2,7 +2,7 @@
 
 # Python para Data Science: Funções, Pacotes e Pandas
 
-Curso focado em Tuplas, dicionários e funções, além de outros truqes com Pandas.
+Curso focado em Tuplas, dicionários e funções, além de outros truqes com Pandas. Curso disponível na plataforma da [Alura](https://cursos.alura.com.br/course/python-funcoes-pacotes-pandas) e ministrado por [Rodrigo Daias](https://www.linkedin.com/in/rodrigo-fernando-dias-118181120/).
 
 ## Assuntos abordados:
 
